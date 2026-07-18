@@ -1,0 +1,15 @@
+{:compatibility/id "com-etzhayyim-infra_utility_connect"
+ :compatibility/status :redirect-tombstone
+ :compatibility/implementation-owner false
+ :compatibility/canonical-owner
+ {:repository "https://github.com/etzhayyim/com-etzhayyim-infra-utility-connect"
+  :west-path "orgs/etzhayyim/com-etzhayyim-infra-utility-connect"
+  :revision "1ea53870784fae349af344d1dfa7bbe515e4352e"}
+ :compatibility/distinct-did
+ {:retained true
+  :wire-artifact ".well-known/did.json"
+  :retirement-gate :all-did-consumers-migrated}
+ :compatibility/legacy-root-alias "20-actors/infra_utility_connect"
+ :compatibility/canonical-format :edn
+ :compatibility/deprecated-languages #{:go :tinygo}
+ :compatibility/deprecated-language-action :prune-not-port}
